@@ -1,0 +1,98 @@
+
+*{ 
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(216, 236, 244);
+}
+
+header {
+    background-color: #176dad;
+    height: 82px;
+    width: 1290px;
+}
+
+/* .cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 82px;
+} */
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 1100px; 
+    align-items: center ;
+    /* prof colocou 700 no width e isso
+    deixou muito colado no meu */
+}
+
+.menu a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container {
+    width: 1290px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: auto;
+    padding: 0vw; */
+    /* margin: 0% auto 0% auto; */
+    /* flex-direction: column , serve para colocar os itens abaixo do logo
+    (a class = container estava em head e foi movido para div, e class = cabecalho foi
+    removida da div) */
+}
+
+.logo {
+    height: 120px;
+    width: 200px;
+    padding-top: 10px;
+}
+
+.loginIcon {
+    height: 60px;
+    width: 60px;
+}
+
+.banner {
+    background-image: url(../IMG/bannergodofwarfull.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    height: 370px;;
+    width: 1290px;
+}
+
+.container-grid {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.itens-banner {
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.texto-banner {
+    color: aliceblue;
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
