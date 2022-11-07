@@ -5,6 +5,7 @@ function mostrarMenu() {
 
     if (getComputedStyle(menu).display == 'none') {
         menu.style.display = 'flex';
+    
     } else {
         menu.style.display = 'none';
     }
@@ -18,5 +19,12 @@ function cadastrarNewsletter() {
 
 }
 
+function logar() {
+    let login = document.getElementById("email").value
+
+    alert(login)
+    console.log(login)
+
+}
 
     
